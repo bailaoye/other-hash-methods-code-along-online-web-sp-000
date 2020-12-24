@@ -14,5 +14,6 @@ def get_the_min(groceries)
     if key == "vegetable"
       key.each do |item|
       end
+    end
   end
 end
