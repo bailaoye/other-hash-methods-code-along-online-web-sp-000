@@ -12,6 +12,6 @@ def get_the_min(groceries)
   #code your solution here!
   min_value = nil
   groceries.each do |key, value|
-    min_value = value.min
+    min_value = value.min[0]
   end
 end
