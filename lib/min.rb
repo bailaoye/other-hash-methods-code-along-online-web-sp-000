@@ -11,9 +11,5 @@ require 'pry'
 def get_the_min(groceries)
   #code your solution here!
   groceries.each do |key, value|
-    if key == "vegetable"
-      key.each do |item|
-      end
-    end
   end
 end
